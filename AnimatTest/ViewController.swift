@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     var images = [UIImageView]()
     var timer:NSTimer!
-    var ns = 2.3
+    var ns = 0.3
     
     @IBAction func onTappedReset(sender: AnyObject){
         
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         */
         
         
-        
+        idx = 0
         timer = NSTimer.scheduledTimerWithTimeInterval(ns/8, target: self, selector: Selector("update"), userInfo: nil, repeats: true)
     }
     var idx = 0
@@ -66,20 +66,21 @@ class ViewController: UIViewController {
                 
                 for i in 0 ..< 8 {
                     images[i].stopAnimating()
+                    
                     var finalImage:UIImage = UIImage(named: "cutline_1")!
-                    var imgIdx = idx+1-i
+                    var imgIdx = idx+1-i //7+1-{0~8}
                     
+                    if i >= 1 {
+                        imgIdx+=1
+                    }
+                    println("[\(i)]cutline_\(imgIdx)")
                     
-                    if i < 2 {
-                        finalImage = UIImage(named: "cutline_8")!
-                    }else{
-                        if imgIdx != 2 {
-                            finalImage = UIImage(named: "cutline_\(imgIdx)")!
-                        }
+                    if i < 7 {
+                        finalImage = UIImage(named: "cutline_\(imgIdx)")!
                     }
                     
                     images[i].image = finalImage
-                    println("[\(i)]cutline_\(imgIdx)")
+                    
                 }
             }
             
@@ -89,7 +90,6 @@ class ViewController: UIViewController {
             //images[idx-7].stopAnimating()
             //images[idx-7].image = UIImage(named: "cutline_8")
             timer.invalidate()
-            idx = 0
         }
         
         
