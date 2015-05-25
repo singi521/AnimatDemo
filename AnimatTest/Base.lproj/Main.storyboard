@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AnimatTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MI8-EH-ufV">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="141" y="444" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onTappedButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TAr-Bq-wgY"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cutline_2" translatesAutoresizingMaskIntoConstraints="NO" id="qPZ-IU-yUQ">
+                                <rect key="frame" x="0.0" y="-80" width="100" height="80"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="175" width="50" height="40"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cutline_1" translatesAutoresizingMaskIntoConstraints="NO" id="6UL-qf-NGs">
+                                <rect key="frame" x="0.0" y="-80" width="100" height="80"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="350" y="175" width="50" height="40"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cutline_1" translatesAutoresizingMaskIntoConstraints="NO" id="uGC-Ux-XMT">
+                                <rect key="frame" x="0.0" y="-80" width="100" height="80"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="175" width="50" height="40"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cutline_1" translatesAutoresizingMaskIntoConstraints="NO" id="hGW-Z5-mY6">
+                                <rect key="frame" x="0.0" y="-80" width="100" height="80"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="100" y="175" width="50" height="40"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cutline_1" translatesAutoresizingMaskIntoConstraints="NO" id="MID-gV-eNL">
+                                <rect key="frame" x="0.0" y="-80" width="100" height="80"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="150" y="175" width="50" height="40"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cutline_1" translatesAutoresizingMaskIntoConstraints="NO" id="dhM-1m-zf5">
+                                <rect key="frame" x="0.0" y="-80" width="100" height="80"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="200" y="175" width="50" height="40"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cutline_1" translatesAutoresizingMaskIntoConstraints="NO" id="3as-2X-Vzt">
+                                <rect key="frame" x="0.0" y="-80" width="100" height="80"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="250" y="175" width="50" height="40"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cutline_1" translatesAutoresizingMaskIntoConstraints="NO" id="TBI-z8-yOa">
+                                <rect key="frame" x="0.0" y="-80" width="100" height="80"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="300" y="175" width="50" height="40"/>
+                                </variation>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Zd-jS-jgr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="100" width="1" height="300"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MMa-h0-2gc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="100" y="100" width="1" height="300"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dtT-6g-odo">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="150" y="100" width="1" height="300"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vUn-cG-0SM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="200" y="100" width="1" height="300"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TfK-V0-0S4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="250" y="100" width="1" height="300"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="thO-Lg-z2Q">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="300" y="100" width="1" height="300"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdj-Co-k6F">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="350" y="100" width="1" height="300"/>
+                                </variation>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emY-HU-Gex">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="454" width="34" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onTappedReset:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wzT-fE-hSx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="MI8-EH-ufV"/>
+                                <exclude reference="qPZ-IU-yUQ"/>
+                                <exclude reference="6UL-qf-NGs"/>
+                                <exclude reference="uGC-Ux-XMT"/>
+                                <exclude reference="hGW-Z5-mY6"/>
+                                <exclude reference="MID-gV-eNL"/>
+                                <exclude reference="dhM-1m-zf5"/>
+                                <exclude reference="3as-2X-Vzt"/>
+                                <exclude reference="TBI-z8-yOa"/>
+                                <exclude reference="8Zd-jS-jgr"/>
+                                <exclude reference="MMa-h0-2gc"/>
+                                <exclude reference="dtT-6g-odo"/>
+                                <exclude reference="vUn-cG-0SM"/>
+                                <exclude reference="TfK-V0-0S4"/>
+                                <exclude reference="thO-Lg-z2Q"/>
+                                <exclude reference="jdj-Co-k6F"/>
+                                <exclude reference="emY-HU-Gex"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="MI8-EH-ufV"/>
+                                <include reference="qPZ-IU-yUQ"/>
+                                <include reference="6UL-qf-NGs"/>
+                                <include reference="uGC-Ux-XMT"/>
+                                <include reference="hGW-Z5-mY6"/>
+                                <include reference="MID-gV-eNL"/>
+                                <include reference="dhM-1m-zf5"/>
+                                <include reference="3as-2X-Vzt"/>
+                                <include reference="TBI-z8-yOa"/>
+                                <include reference="8Zd-jS-jgr"/>
+                                <include reference="MMa-h0-2gc"/>
+                                <include reference="dtT-6g-odo"/>
+                                <include reference="vUn-cG-0SM"/>
+                                <include reference="TfK-V0-0S4"/>
+                                <include reference="thO-Lg-z2Q"/>
+                                <include reference="jdj-Co-k6F"/>
+                                <include reference="emY-HU-Gex"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="image1" destination="qPZ-IU-yUQ" id="vF3-UO-jWC"/>
+                        <outlet property="image2" destination="uGC-Ux-XMT" id="Umk-CV-rqU"/>
+                        <outlet property="image3" destination="hGW-Z5-mY6" id="kUm-LU-nEZ"/>
+                        <outlet property="image4" destination="MID-gV-eNL" id="mby-RO-wgN"/>
+                        <outlet property="image5" destination="dhM-1m-zf5" id="aFC-Ei-XYp"/>
+                        <outlet property="image6" destination="3as-2X-Vzt" id="qOZ-fO-nAw"/>
+                        <outlet property="image7" destination="TBI-z8-yOa" id="1T4-c4-cH6"/>
+                        <outlet property="image8" destination="6UL-qf-NGs" id="0m1-7m-QFa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="399"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cutline_1" width="100" height="80"/>
+        <image name="cutline_2" width="100" height="80"/>
+    </resources>
+</document>
