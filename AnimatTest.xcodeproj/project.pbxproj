@@ -13,6 +13,7 @@
 		4F6F12651B1064600080F041 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6F12641B1064600080F041 /* Images.xcassets */; };
 		4F6F12681B1064600080F041 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F6F12661B1064600080F041 /* LaunchScreen.xib */; };
 		4F6F12741B1064600080F041 /* AnimatTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F12731B1064600080F041 /* AnimatTestTests.swift */; };
+		DA0D3F431B15D872003EEC6C /* CutAnimateVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D3F421B15D872003EEC6C /* CutAnimateVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4F6F126D1B1064600080F041 /* AnimatTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F6F12721B1064600080F041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F6F12731B1064600080F041 /* AnimatTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatTestTests.swift; sourceTree = "<group>"; };
+		DA0D3F421B15D872003EEC6C /* CutAnimateVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CutAnimateVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				4F6F125D1B1064600080F041 /* AppDelegate.swift */,
 				4F6F125F1B1064600080F041 /* ViewController.swift */,
 				4F6F12611B1064600080F041 /* Main.storyboard */,
+				DA0D3F421B15D872003EEC6C /* CutAnimateVIew.swift */,
 				4F6F12641B1064600080F041 /* Images.xcassets */,
 				4F6F12661B1064600080F041 /* LaunchScreen.xib */,
 				4F6F125B1B1064600080F041 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				4F6F12601B1064600080F041 /* ViewController.swift in Sources */,
 				4F6F125E1B1064600080F041 /* AppDelegate.swift in Sources */,
+				DA0D3F431B15D872003EEC6C /* CutAnimateVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
